@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  students:
+    image: bo4kare8/students:0.0.1
+    container_name: students-container
+    volumes:
+      - ./application.yaml:/app/application.yaml
+      - ./loaded-students.csv:/app/loaded-students.csv

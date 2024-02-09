@@ -1,0 +1,6 @@
+app:
+  load-students:
+    enabled: true
+load:
+  fileName: loaded-students.csv
+  fileMaxSize: 1_048_576
